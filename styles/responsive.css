@@ -12,4 +12,14 @@
     font-weight: 600;
     color: #131313;
   }
+
+  .banner-container {
+    margin-top: 40px;
+  }
+  .banner-greetings h1 {
+    font-size: 2rem;
+  }
+  .banner-greetings .description {
+    padding: 10px;
+  }
 }
