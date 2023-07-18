@@ -22,7 +22,6 @@
 
 .title {
   color: var(--title-primary-color);
-  text-align: center;
   font-family: Work Sans;
   font-size: 2.8rem;
   font-style: normal;
@@ -31,7 +30,6 @@
 
 .description {
   color: var(--description-primary-color);
-  text-align: center;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -95,4 +93,31 @@ nav ul li {
 .banner-image {
   max-width: 100%;
   padding-bottom: 30px;
+}
+
+/* team section */
+.teams-container{
+  display: flex;
+  gap: 76px;
+  align-items: center;
+  padding: 0 30px;
+  margin-bottom: 100px;
+}
+
+.teams-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+
+.quick-list{
+  color:#727272 ;
+}
+.text-features{
+  color: #ff900e;
+}
+
+.teams-content .description{
+  padding-top: 24px;
+  padding-bottom: 32px
 }
