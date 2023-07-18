@@ -118,7 +118,7 @@ nav ul li {
   color:#727272 ;
 }
 .text-features {
-  color: #ff900e;
+  color: var(--primary-color);
 }
 
 .teams-content .description{
@@ -127,4 +127,104 @@ nav ul li {
 }
 
 /* featured-container */
+
+.featured-container{
+  display: flex;
+
+ gap: 130px;
+}
+
+
+.featured-title{
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  width: 460px;
+}
+
+.featured-card-container .card{
+  border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 20px 33px;
+margin-bottom: 20px;
+/* height: 171px; */
+}
+
+.featured-content .description{
+  padding: 30px 0;
+}
+
+.card-title{
+  font-size: 1.3rem;
+}
+
+
+
+.badge{
+  text-align: center;
+  padding: 46px 42px;
+  border-radius: 8px;
+background: var(--primary-color);
+color: #FFF;
+width: 342px;
+transform: translate( -80px,-130px);
+}
+
+.years{
+
+font-size: 4rem;
+
+}
+
+.experience{
+  font-size: 1.8rem;
+}
+
+/* facts area */
+
+.facts-container .description{
+padding-top: 24px;
+width: 542px;
+}
+
+.brand-information-box{
+  /* display: grid;
+  grid-template-columns: repeat(4,1fr); */
+  display: flex;
+  justify-content: space-around;
+ flex-wrap: wrap;
+
+}
+
+.box{
+text-align: center;
+border-radius: 8px;
+border: 1px solid #FF900E;
+padding: 40px;
+margin: 100px 0;
+}
+
+
+
+/* sponsors */
+
+.sponsors{
+  text-align: center;
+  margin-bottom: 130px
+}
+
+.sponsors p{
+  padding: 20px 0;
+  width: 542px;
+  margin: auto;
+}
+
+.sponsors-image-container{
+  display: flex;
+  justify-content: center;
+  gap: 155px;
+  margin-top: 50px;
+
+}
+
 

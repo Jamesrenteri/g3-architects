@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
   nav,
-  nav ul,.teams-container {
+  nav ul,.teams-container,.featured-container,.sponsors-image-container {
     flex-direction: column;
+    gap: 50px;
   }
 
   nav ul {
@@ -34,5 +35,48 @@
   .teams-container{
     padding: 0;
   }
+
+.featured-img img{
+  max-width: 100%;
+}
+
+
+.badge{
+  padding: 20px;
+  width: auto;
+  transform: translate(-30px,-40px );
+  border-radius: 50%;
+}
+.years{
+  font-size: 2.5rem;
+}
+
+.featured-title{
+  border-top: 5px solid #ff900e;
+width: 100%;
+}
+
+.facts-container .description{
+  width: 100%;
+  }
+
+  .box{
+    margin: 20px;
+  }
+
+  .brand-information-box{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .sponsors p{
+    width: 100%;
+  }
+ 
+  
+
+
 }
 
