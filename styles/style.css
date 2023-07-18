@@ -213,6 +213,12 @@ margin: 100px 0;
   margin-bottom: 130px
 }
 
+.sponsors .title{
+  background-image: linear-gradient(to bottom ,red, blue, purple);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .sponsors p{
   padding: 20px 0;
   width: 542px;
