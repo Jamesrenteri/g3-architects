@@ -100,8 +100,12 @@ nav ul li {
   display: flex;
   gap: 76px;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 20px;
   margin-bottom: 100px;
+}
+
+.teams-content{
+  width: 468px;
 }
 
 .teams-img{
@@ -113,7 +117,7 @@ nav ul li {
 .quick-list{
   color:#727272 ;
 }
-.text-features{
+.text-features {
   color: #ff900e;
 }
 
@@ -121,3 +125,6 @@ nav ul li {
   padding-top: 24px;
   padding-bottom: 32px
 }
+
+/* featured-container */
+

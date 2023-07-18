@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
   nav,
-  nav ul {
+  nav ul,.teams-container {
     flex-direction: column;
   }
 
@@ -22,4 +22,17 @@
   .banner-greetings .description {
     padding: 10px;
   }
+
+  .teams-img{
+    grid-template-columns: 1fr;
+  }
+  .teams-content{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .teams-container{
+    padding: 0;
+  }
 }
+
